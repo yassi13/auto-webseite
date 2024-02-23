@@ -1,0 +1,142 @@
+h1{
+    font-style:italic;
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+   
+}
+ h2{
+   color: white;
+    text-align: center;
+ }
+
+ h3{
+   color: aliceblue;
+    text-align: center;
+ }
+
+body{
+   background: black;
+}
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.conatiner{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.logo_area{
+   margin: 10%%;
+}
+
+ p{
+   color: rgb(248, 252, 255);
+   text-align: left;
+ }
+.card{
+   background: blue;
+   width: 270px;
+   margin: 10px;
+   border-radius: 15px;
+
+}
+.card-image{
+   background-color: rgb(18, 154, 228);
+   height: 150px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px
+   ;
+}
+.car-1{
+  background-image: url("Mc23.jpg");
+}
+.car-2{
+   background-image: url("gt3.jpg");
+}
+.car-3{
+   background-image: url("lambo231223.jpg");
+}
+.car-5{
+   background-image: url("mansory-p9lm-evo-900-basis-porsche-911-turbo-s-coupe.jpg");
+}
+.card-image-2{
+   background-color: rgb(18, 154, 228);
+   height: 150px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px;
+   background-image: url("Buggati-devo.jpg"); 
+}
+.card-image-1{
+   background-color: rgb(18, 154, 228);
+   height: 150px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px;
+   background-image: url("bugatti123.png");
+}
+.card-image-4{
+   background-color: rgb(18, 154, 228);
+   height: 150px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px;
+   background-image: url("ferrari.jpg"); 
+}
+
+
+.card h2{
+   padding: 10px;
+}
+.card p {
+   padding: 10px;
+}
+.card a {
+background-color: rgb(255, 254, 254);
+color: black;
+padding: 15px 20px;
+display: block;
+text-align: center;
+margin: 20px 50px;
+text-decoration: none;
+}
+.card:hover {
+background-color: #0c0c0c;
+color: aliceblue;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 1s ease;
+}
+
+.inner_main_menu {
+   margin: 0 0 5% 0;
+}
+.card-image-{
+   background-color: rgb(18, 154, 228);
+   height: 150px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px;
+   background-image: url("ferrari.jpg"); 
+}
+.p2{
+ text-align: center;
+}
+.text-1{
+   text-align: center;
+margin: 4%;
+font-size: 117%;
+}
+h3{
+margin: 37px;
+font-size: 36px;
+}
+ h2{
+   font-size: px;
+ }  
