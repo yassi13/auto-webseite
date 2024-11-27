@@ -1,47 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mein Taschenrechner </title>
-   
-     <link rel="stylesheet" href="Java.css">  
-     <link href="Java.js">
-     
- <style>
-    input[type=text] {
-  width: 50%;
-  padding: 15px 20px ;
-  /* 'margin: 8px 0;' */
-  box-sizing: border-box;
-  justify-content: center;
-  
-
-  
+<html>
+  <header>
+    <title>JavaScript Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
  
-}
- </style>
+  </header>
+  <body class="container d-flex  justify-content-center align-items-center  bg-dark">
 
-</head>
-<body>
-    <div class="box">
-    <form>
-        <h3>Vorname</h3>
+    <div id="quiz-conatiner">
         
+        <button id="next-button"  class="btn btn-primary" onclick="nextQuestion()">Nächste Frage Boss</button>
+        <div class="card-header"></div>
+        <h1 id="question"></h1>
 
-        <input type="text" id="fname" name="fname">
-        <h3>Nachname</h3>
-        <input type="text" id="lname" name="lname">
-        <input type="text" id="fmnom" name="fmnom">
-        <h3>Nachname</h3>
-        <input type="text" id="lway" name="lway">
-      </form>
+        <div class="card-body"></div>
+        <h1 id="answers"></h1>
+
+
+        <div class="card-footer"></div>
+        <button id="next-button"  class="btn btn-primary" onclick="nextQuestion()">Nächste Frage Boss</button>
+
+
     </div>
-        
-</body>
+    <div id="result" hidden="true" class="card">
+      <div class="card-header"></div>
+
+
+      <div class="card-body"></div>
+
+
+
+      <div class="card-footer"></div>
+
+
+  </div>
+        <h1>Quiz beendet!</h1>
+        <p>Deine Punktzahl:<span id="score"></span></p>
+    </div>
+
+  </body>
+  <script src="Java.JS"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
+
+
 </html>
-
-
-
-
-
