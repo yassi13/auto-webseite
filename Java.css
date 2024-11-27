@@ -1,0 +1,46 @@
+body{
+     background-image: url(a19db9329dce517ace9408a2c66f8a71.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+.box{
+    text-align: center;
+    color:aliceblue;
+    padding: 90px;
+    
+    
+}
+#fname{
+    margin: 30px;
+    background-color: rgb(240, 238, 238);
+    
+}
+#lname{
+    margin:30px;
+}
+h1 {
+    text-align: center;
+    }
+h3{
+    color:rgb(255, 255, 255);
+    
+
+}
+#fmnom{
+margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
