@@ -1,0 +1,78 @@
+body {
+
+    background-image: url(waves-5775989_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+img{
+    height: 427px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+h1{
+    
+    font-size: 50px;
+    max-width: 33ch;
+    border-radius: 40px;
+    font-size: 70px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    
+
+   
+}
+
+#username{
+   border: none; 
+   border-bottom: 2px solid #007bff; 
+   outline: none; 
+   padding: 8px;
+   font-size: 30px;
+   width: 480px;
+   height: 15px;
+}
+
+.two-cols {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding-top:94px;
+}
+.neu{
+margin-left: 100px;
+}
+.button{
+    background: linear-gradient(45deg, #000000, #65c1d1);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 17px 28px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width:460px;
+   margin-top: 69px;
+
+    
+}
+.button:hover {
+    
+    color: black;
+    border: 2px solid #0602ff;
+}
+strong{
+    margin:176px;
+    font-size: 20px;
+    color:#000000;
+    
+    
+}
+a{
+    text-decoration: none !important;
+}
